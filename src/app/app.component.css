@@ -1,0 +1,53 @@
+#sumar{
+    cursor: pointer;
+    font-size: 2.2vw;
+    background-color: magenta;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+
+#restar{
+    cursor: pointer;
+    font-size: 2.2vw;
+    background-color: brown;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+#multiplicar{
+    cursor: pointer;
+    font-size: 2.2vw;
+    background-color: aquamarine;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#sumar:active, #restar:active, #multiplicar:active{
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    -webkit-transform: translate(5px, 5px);
+    transform: translate(5px, 5px);
+}
+
+
+#sumar:hover {
+    background: red;
+    color: white;
+}
+
+#restar:hover{
+    background-color: chocolate;
+    color: white;
+
+}
+#multiplicar:hover{
+    background-color: blue;
+    color: white;
+}
+
+#resultado{
+    font-size: 2.2vw;
+}
